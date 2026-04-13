@@ -1,0 +1,14 @@
+# a lightweight, immutable Ruby object that is used as an identifier
+
+puts :hello
+puts :hello.class
+
+a = "hello"
+b = "hello"
+c = :hello
+d = :hello
+
+puts a.object_id
+puts b.object_id
+puts c.object_id
+puts d.object_id
